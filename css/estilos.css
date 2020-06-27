@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Odibee Sans', cursive;
+}
+
+table, th, td{
+	border-collapse: collapse;
+	/*border: 1px red solid;*/
+}
+
+tr{
+	border: 1px #ccc solid;
+}
+
+.nav-header{
+	background-color: #EB5D00;
+	padding: 15px;
+}
+
+.nav-header--h1{
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.contenedor{
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.todo-form{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+
+}
+
+.todo-form--div{
+	display: flex;
+	flex-direction: column;
+	border: 2px #ccc solid;
+	border-top: 0;
+	border-radius: 0px 0px 10px 10px;
+	padding: 8px;
+}
+
+.todo-form__title{
+	padding: 5px;
+	font-size: 40px;
+}
+
+.todo-form--h1{
+	text-align: center;
+	background-color: #EB5D00;
+	font-size: 50px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.todo-form-p{
+	font-size: 32px;
+}
+
+.todo-form__description{
+	resize: none;
+	font-size: 27px;
+	padding: 10px;
+	height: 150px;
+}
+
+.todo-form__submit{
+	display: flex;
+	justify-content: center;
+}
+
+.todo-form__submit--button{
+	width: 40%;
+	background-color: #00BDD6;
+	border: 1px #ccc solid;
+	border-radius: 8px;
+	font-size: 30px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.todo-form__title, .todo-form__description, .todo-form__submit{
+	margin: 10px 0px;
+}
+
+.todo-form__title, .todo-form__description{
+	border: 2px #ccc solid;
+	border-radius: 5px;
+}
+
+.table{
+	width: 60%;
+}
+
+.table__trow-unico{
+	height: 75px;
+	background-color: #EB5D00;
+}
+
+.table__trow-td-unicos{
+	font-size: 35px;
+	text-align: center;
+}
+
+.table__trow-td{
+	font-size: 25px;
+	padding: 8px;
+}
+
+.table__trow-td:first-child{
+	width: 20%;
+}
+
+.table__trow-td:nth-child(2){
+	border-left: 1px #ccc solid;
+	border-right: 1px #ccc solid;
+	width: 80%;
+}
+
+.table__trow-td--edicion{
+	font-size: 28px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding: 8px;
+}
+
+.boton-edicion{
+	display: flex;
+	justify-content: center;
+	margin: 0 5px;
+	text-decoration: none;
+}
+
+.fa-edit{
+	background-color: #EB5D00;
+	color: #fff;
+	padding: 5px;
+	border: 1px #EB5D00 solid;
+	border-radius: 5px;
+}
+
+.fa-trash-alt{
+	background-color: #E11200;
+	color: #fff;
+	padding: 5px;
+	border: 1px #E11200 solid;
+	border-radius: 5px;
+}
