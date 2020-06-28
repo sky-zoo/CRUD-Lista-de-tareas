@@ -1,4 +1,4 @@
-# CRUD-todo-list
+# CRUD Lista de tareas
 Pequeña aplicación para guardar tareas.
 # Tecnologias usadas:
 - MySQL para las operaciones basicas de creacion, lectura, actualizar y borrar datos.
