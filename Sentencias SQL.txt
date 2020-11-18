@@ -1,0 +1,7 @@
+CREATE DATABASE lista;
+USE lista;
+CREATE TABLE tareas(
+	id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    titulo varchar(50) NOT NULL,
+    descripcion varchar(255) NOT NULL
+);
