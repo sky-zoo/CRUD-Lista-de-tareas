@@ -1,7 +1,7 @@
 # CRUD Lista de tareas
 Pequeña aplicación para guardar tareas.
 **Para poder utilizar la aplicación es necesario tener instalado XAMPP**
-## Como instalar la aplicación
+## Como instalar la aplicación localmente
 Una vez instalado XAMPP:
 1. Iniciar Apache y MySQL
 2. Abrir un navegador web y entrar en <http://localhost/phpmyadmin>
